@@ -1,0 +1,27 @@
+.*  is for multiplying components in matrices
+
+.'  transposes matrices.
+
+'   transposes matrices but takes the complex conjugate of complex numbers (i).
+
+save   saves the current command window.
+save('file name', 'variable', 'type')   Saves variable into a file with the specified type (-ascii).
+
+:  indicates everything.
+     (:,1) is every row, first column
+     (1,:) is every column, first row.
+
+addpath ____  Adds the path in '____' so that running in the command window also checks the added path for scripts.
+
+
+clear all   Closes all variables in workspace
+
+close all   Closes all figures and such.
+
+%   Is a comment (% sup) is a comment saying 'sup'
+
+zeros(x,y)  gives matrix with x rows and y columns.
+
+eye(x)  Gives an identity matrix with x size.
+
+
